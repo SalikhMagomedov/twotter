@@ -21,11 +21,6 @@ export default {
       type: Object,
       required: true
     }
-  },
-  methods: {
-      favoriteTwoot(id) {
-          this.$emit('favorite', id)
-      }
   }
 }
 </script>
